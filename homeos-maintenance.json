@@ -1,0 +1,22 @@
+{
+  "candidate_id": "pct513-2026.10.0-1",
+  "status": "candidate-not-deployed",
+  "fork": "MicHuang/tuya-local",
+  "branch": "codex/homeos-maintained-2026.10",
+  "upstream": {
+    "repository": "make-all/tuya-local",
+    "tag": "2026.10.0",
+    "commit": "027351717d3f6b8bef30c47a018944b430f5661e"
+  },
+  "runtime_patch": {
+    "commit": "b064854a28e24cb92bd17fc8d7df71f5fb7868b6",
+    "path": "custom_components/tuya_local/devices/owon_pct513_tuya_thermostat.yaml",
+    "sha256": "71deed36c1ed309d2b84e50e40a67bad9a8a706f033bd00256b094e4535ee2f8"
+  },
+  "local_regression_sha256": "dfa5bf7a0df348fbf34e67d02d20a5c9cd9810fd800cb4a0ef94222a2cac52a5",
+  "local_regression_cases": 44,
+  "test_target": "Python 3.14.5 / HA 2026.10.4 / pytest-homeassistant-custom-component 0.13.375",
+  "stable_release": false,
+  "installed": false,
+  "migration_required": true
+}
